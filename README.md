@@ -2,18 +2,24 @@
 
 In this project you will be finishing an implementation of the game **tic-tac-toe**.
 
-## Getting Started
+### When you're finished...
+
+1. Zip/compress the folder you were working in into a .zip file.
+2. Send an e-mail to admissions@makersquare.com and attach your .zip file.
+3. Schedule your technical interview. If you don't have a link to schedule your interview, ask for the link in this email.
+
+### Getting Started
 
 [Download this project](https://github.com/makersquare/tic-tac-toe/archive/master.zip). You will be writing code in **main.js** for this project.
 
-## Step 1: Getting it Working
+### Step 1: Getting it Working
 
 Complete the code to do the following requirements:
 
 - Correctly check for a game winner
 - Alert the game winner
 
-## Step 2: Stop Cheating!
+### Step 2: Stop Cheating!
 
 A player can override the other player's space! This is because the game does not check if a space has been filled or not.
 
@@ -22,9 +28,9 @@ A player can override the other player's space! This is because the game does no
 
 **HINT:** Do you know about JavaScript truthy and falsey values? `NaN` is a **falsey** value, while a string is a **truthy** value. Take advantage of this when checking the current value of a space.
 
-## Extensions
+### Extensions
 
-    Completing extensions are optional (but great!). You can complete them in any order you want.
+Completing extensions are optional (but great!). You can complete them in any order you want.
 
 1. Add a button to start a new game after one has finished. Keep track of the number of wins/losses for each player.
 
