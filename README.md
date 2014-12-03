@@ -1,4 +1,4 @@
-# Coding Challenge: Tic-Tac-Toe
+# Admissions Challenge 2 of 2: Tic-Tac-Toe
 
 In this project you will be finishing an implementation of the game **tic-tac-toe**.
 
