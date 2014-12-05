@@ -4,9 +4,7 @@ In this project you will be finishing an implementation of the game **tic-tac-to
 
 ### When you're finished...
 
-1. Zip/compress the folder you were working in into a .zip file.
-2. Send an e-mail to admissions@makersquare.com and attach your .zip file.
-3. Schedule your technical interview. If you don't have a link to schedule your interview, ask for the link in this email.
+[Submit your solution here.](https://makersquare.typeform.com/to/NWK8PH)
 
 ### Getting Started
 
