@@ -4,7 +4,7 @@ In this project you will be finishing an implementation of the game **tic-tac-to
 
 ### When you're finished...
 
-[Submit your solution here.](https://makersquare.typeform.com/to/NWK8PH)
+[Submit your solution here.](https://makersquare.typeform.com/to/NWK8PH) Upon submission, you'll automatically be taken to schedule your Technical Interview.
 
 **Note**: Please do not schedule a Technical Interview before conducting your "Admissions Q&A Interview". E-mail admissions@makersquare.com for any further clarification.
 
