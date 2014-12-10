@@ -10,7 +10,7 @@ In this project you will be finishing an implementation of the game **tic-tac-to
 
 ### Getting Started
 
-[Download this project](https://github.com/makersquare/tic-tac-toe/archive/master.zip). You will be writing code in **main.js** for this project.
+[Download this project](https://github.com/makersquare/admissions-challenge-2/archive/master.zip). You will be writing code in **main.js** for this project.
 
 ### Step 1: Getting it Working
 
