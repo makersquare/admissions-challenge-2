@@ -2,6 +2,8 @@
 
 For this project you will be incorporating your JavaScript skills along with jQuery in order to build out a cookie baking app. Start by cloning this repository and reading through the pre-existing code - we've built out the HTML for you.
 
+If you're not comfortable with jQuery just yet, check out [CodeCademy](http://www.codecademy.com/tracks/jquery) or [Code school](https://www.codeschool.com/courses/try-jquery).
+
 ---
 
 ## Step 1
