@@ -1,43 +1,56 @@
-# Admissions Challenge 2 of 2: Tic-Tac-Toe
+# Admissions Challenge - Making cookies
 
-In this project you will be finishing an implementation of the game **tic-tac-toe**.
+For this project you will be incorporating your JavaScript skills along with jQuery in order to build out a cookie baking app. Start by cloning this repository and reading through the pre-existing code - we've built out the HTML for you.
 
-### When you're finished...
+---
 
-[Submit your solution here.](https://makersquare.typeform.com/to/NWK8PH) Upon submission, you'll automatically be taken to schedule your Technical Interview.
+## Step 1
 
-**Note**: Please do not schedule a Technical Interview before conducting your "Admissions Q&A Interview". E-mail admissions@makersquare.com for any further clarification.
+All of your code will go inside of the document ready function. Here's the functionality you need to build out:
 
-### Getting Started
+1. When someone clicks on Use 1 Sugar, decrement 1 from the sugar in ingredients, and increment 1 from the sugar count in the pot
+2. Replicate the same for flour
+3. When someone clicks Cook a Cookie, deplete 6 units of flour and 3 units of sugar. Add 1 cookie as well.
+4. When you click on buy Sugar, add 1 unit of sugar for $10.
+5. 1 unit of flour costs $20
+6. Make sure you spend time cleaning up your code. Keeping your code flexible and DRY is very important. This is your chance to showcase your ability to write excellent code.
 
-[Download this project](https://github.com/makersquare/admissions-challenge-2/archive/master.zip). You will be writing code in **main.js** for this project.
+---
 
-### Step 1: Getting it Working
+## Step 2
 
-Complete the code to do the following requirements:
+Right now, anyone can just jump into the developer console for the HTML page and change how many cookies are available. This is unacceptable! We cannot have people counterfeiting cookies! Instead of keeping track of cookies inside of the HTML, we want to keep track of cookies inside of our JavaScript code - the HTML code will simply reflect what the JavaScript says.
 
-- Correctly check for a game winner
-- Alert the game winner
+For example, you will keep track of an object called `ingredients` which will have properties for how many ingredients we have:
 
-### Step 2: Stop Cheating!
+```javascript
+var ingredients = {
+  sugar: 10,
+  flour: 5
+};
 
-A player can override the other player's space! This is because the game does not check if a space has been filled or not.
+var pot = {
+  sugar: 2,
+  flour: 1
+};
+```
 
-1. Update your `#board .space` click handler to check if a space is free before attempting to fill it in. If the space is filled, tell the player that the space is already taken.
-2. Make sure the game does not continue after someone has won.
+This object will hold the "truth" about how much sugar you have, and anytime you update this object, you will want to also update the HTML page regarding how much you have.
 
-**HINT:** Do you know about JavaScript truthy and falsey values? `NaN` is a **falsey** value, while a string is a **truthy** value. Take advantage of this when checking the current value of a space.
+---
 
-### Extensions
+## Algorithms Challenge
 
-Completing extensions are optional (but great!). You can complete them in any order you want.
+Along with this challenge. Submit a solution to the following challenge:
 
-1. Add a button to start a new game after one has finished. Keep track of the number of wins/losses for each player.
+Given an array of integers, find the smallest difference between any two elements of the array. For example:
 
-2. Add a fancy animation when someone wins. For example, make each space fade in and out in cascade.
+```
+var findSmallestDifference = function(arr) {
+  // Your code goes here
+};
+var result = findSmallestDifference([100, 500, 300, 1000, -200, 990]);
+console.log(result);
+```
 
-3. Add a way for each player to set their player names.
-
-4. Add a way for each player to set their player avatar (to replace the veggies/junkfood avatars).
-
-5. Store game and player information (wins/losses, set player names, player avatars) in [local storage](http://diveintohtml5.info/storage.html) so that the information persists when the page is reloaded.
+This code should print out 10 because the different between 1000 and 990 is 10 and there are no pairs that have a smaller difference.
