@@ -47,7 +47,7 @@ Along with this challenge. Submit a solution to the following challenge:
 
 Given an array of integers, find the smallest difference between any two elements of the array. For example:
 
-```
+```javascript
 var findSmallestDifference = function(arr) {
   // Your code goes here
 };
