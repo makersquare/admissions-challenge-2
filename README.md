@@ -23,17 +23,20 @@ All of your code will go inside of the document ready function. Here's the funct
 
 Right now, anyone can just jump into the developer console for the HTML page and change how many cookies are available. This is unacceptable! We cannot have people counterfeiting cookies! Instead of keeping track of cookies inside of the HTML, we want to keep track of cookies inside of our JavaScript code - the HTML code will simply reflect what the JavaScript says.
 
-For example, you will keep track of an object called `ingredients` which will have properties for how many ingredients we have:
+For example, you will keep track of an object called `inventory` which will have properties for how many ingredients we have:
 
 ```javascript
-var ingredients = {
-  sugar: 10,
-  flour: 5
-};
-
-var pot = {
-  sugar: 2,
-  flour: 1
+var inventory = {
+  product: {
+    money: 1000,
+    cookies: 0
+  },
+  pot: {
+    // sugar, flour
+  },
+  ingredients: {
+    // sugar, flour
+  }
 };
 ```
 
