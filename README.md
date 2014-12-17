@@ -1,4 +1,4 @@
-# Admissions Challenge - Making cookies
+# Admissions Challenge 2 of 2 - Making Cookies
 
 For this project you will be incorporating your JavaScript skills along with jQuery in order to build out a cookie baking app. Start by cloning this repository and reading through the pre-existing code - we've built out the HTML for you.
 
