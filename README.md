@@ -1,4 +1,6 @@
-# Admissions Challenge 2 of 2: Tic-Tac-Toe
+# (old) Admissions Challenge (2 of 2): Tic-Tac-Toe
+
+This is an old version of the 2nd Admissions Challenge. If you have already started the admissions process and were working on this project, you may continue to work on it and submit this project. Your technical interview will still be over this process. If not, please ignore this branch. 
 
 In this project you will be finishing an implementation of the game **tic-tac-toe**.
 
