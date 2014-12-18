@@ -57,7 +57,7 @@ var findSmallestDifference = function(arr) {
   // Your code goes here
 };
 var result = findSmallestDifference([100, 500, 300, 1000, -200, 990]);
-console.log(result); // The answer is 10 for this particular example because the difference between 1000 and 990 is 10
+console.log(result); // The answer is 10 for this example because the difference between 1000 and 990 is 10
 ```
 
 This code should print out 10 because the different between 1000 and 990 is 10 and there are no pairs that have a smaller difference.
