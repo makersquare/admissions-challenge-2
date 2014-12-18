@@ -4,6 +4,12 @@ For this project you will be incorporating your JavaScript skills along with jQu
 
 If you're not comfortable with jQuery just yet, check out [CodeCademy](http://www.codecademy.com/tracks/jquery) or [Code school](https://www.codeschool.com/courses/try-jquery).
 
+## When You're Finished
+
+[Submit your solution here.](https://makersquare.typeform.com/to/NWK8PH) Upon submission, you'll automatically be taken to schedule your Technical Interview.
+
+**Note**: Please do not schedule a Technical Interview before conducting your "Admissions Q&A Interview". E-mail admissions@makersquare.com for any further clarification.
+
 ---
 
 ## Step 1
