@@ -54,7 +54,7 @@ This object will hold the "truth" about what you actually have, and anytime you 
 
 ## Algorithms Challenge
 
-Along with this challenge. Submit a solution to the following challenge:
+Along with this challenge, submit a solution to the following challenge:
 
 Given an array of integers, find the smallest difference between any two elements of the array. For example:
 
