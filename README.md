@@ -56,7 +56,7 @@ This object will hold the "truth" about what you actually have, and anytime you 
 
 Along with this challenge, submit a solution to the following challenge:
 
-Given an array of integers, find the smallest difference between any two elements of the array. For example:
+Given an array of integers, find the smallest **positive** difference between any two elements of the array. For example:
 
 ```javascript
 var findSmallestDifference = function(arr) {
