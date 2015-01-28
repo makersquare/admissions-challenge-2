@@ -20,7 +20,7 @@ All of your code will go inside of the document ready function. Here's the funct
 2. Replicate the same for flour
 3. When someone clicks Cook a Cookie, deplete 6 units of flour and 3 units of sugar. Add 1 cookie as well.
 4. When you click on buy Sugar, add 1 unit of sugar for $10.
-5. 1 unit of flour costs $20
+5. 1 unit of flour costs $15
 6. Make sure you spend time cleaning up your code. Keeping your code flexible and DRY is very important. This is your chance to showcase your ability to write excellent code.
 
 ---
